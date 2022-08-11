@@ -26,7 +26,7 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("/Users/shank/eclipse-workspace/FreeCRMTest/src/main/java/com/crm/qa/config/config.properties");
+			FileInputStream ip = new FileInputStream("/Users/shank/git/FreeCRMTest/FreeCRMTest/src/main/java/com/crm/qa/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
